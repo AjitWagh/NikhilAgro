@@ -1,0 +1,85 @@
+.container {
+margin-top: 40px;
+}
+.font-weight-normal {
+  font-size: 200%;
+}
+.img-thumbnail {
+    border-color: red;
+    border: 1px solid #ddd; 
+
+}
+.ownerinfo {
+  font-size: 300%;
+margin-left: 55px;
+}
+div.gallery {
+    margin: 3px;
+    border: 3px solid #ccc;
+    float: left;
+    border-color: rgb(128, 255, 0);
+    width: 100%;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+  
+  width: 100%;
+  height:100;
+   
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+    background-color: #FFE4C4;
+    color:  #000000;
+    font-size: 14px;
+} 
+
+
+.responsive {
+    padding: 0 6px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+@media only screen and (width: 1000px;) {
+.responsive {
+         padding: 0 6px;
+        width: 24.99999%;
+         
+       
+    }
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.some {
+ font-size: 18px;
+ text-align: center;
+
+}
+.first {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.overlay {
+  position: absolute;
+  bottom: -140px;
+  color: white;
+  font-size: 340%;  
+  font-weight: bold;
+  margin-left: 40px;
+}
